@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration:none; 
+}
+
+body{
+    background-color: teal;
+}
+table{
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+th,td{
+    width: 25%;;
+    border : 2px solid white;
+    padding: 5px;
+    color: white;
+}
+th{
+    color: black !important;
+}
+td button {
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    outline: none;
+    border: none ;
+    color: white;
+    user-select: none;
+    cursor: pointer;
+}
+th button {
+    font-weight: 600;
+    user-select: none;
+    width: 60%;
+    height: 100%;
+    background-color: inherit;
+    outline: none;
+    border: none ;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+th:first-child{
+    width: 5% !important;
+}
+
+th:last-child{
+    width: 10% !important;
+}
+
+td input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    font-weight: 600;
+    margin: 0 10px;
+}
+td input::placeholder{
+    color: black;
+    opacity: 0.7;
+}
+
+td:first-child{
+    width: 5% !important; 
+    text-align: center !important;
+}
+
+
+
+
+
+th:nth-of-type(4){
+    width: 5% !important; 
+    text-align: center;
+}
+
+.remad{
+    width: 100%;
+   
+}
+
+.most{
+    width: 40% !important;
+    height: 100%;
+    background-color: green;
+    border-radius: 10px;
+    padding: 7px;
+    user-select: none;
+    margin-left: 15px;
+    outline: none;}
+    
+    .mostt{ 
+        
+        outline: none;
+        user-select: none;
+    margin-left: 15px;
+    padding: 7px;
+    border-radius: 10px;
+    width: 40% !important;
+    background-color: red;
+height: 100%;
+}
+
+.col{
+    background-color: yellow;
+    color: black;
+}
+
